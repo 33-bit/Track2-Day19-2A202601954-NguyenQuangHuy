@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from agent import HybridMemoryAgent
+from submission.bonus.agent import HybridMemoryAgent
 
 USER = "u_001"
 
